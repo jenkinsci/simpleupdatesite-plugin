@@ -121,12 +121,12 @@
 		<tr class="nopadding">
 			<td class="pane-header">
 				<span style="display:inline; float:left;">
-					Announcement
+					Announcements
 				</span>
 				<div style="display:inline; float:right;">
 					<img style="cursor:hand"
 						src="${rootURL}/plugin/simpleupdatesite/img/refreshplugininfo.gif"
-						tooltip="Refresh News"
+						tooltip="Refresh Announcements"
 						onclick="javascript:refreshNews('${rootURL}/plugin/simpleupdatesite/refreshNews', this)" />
 				</div>
 				<div style="display:none;">
