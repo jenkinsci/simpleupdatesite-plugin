@@ -128,7 +128,7 @@ public class SimpleUpdateSitePlugIn extends Plugin {
 			for (SyndEntry syndEntry : (List<SyndEntry>) syndFeeds.getEntries()) {
 				RssEntry entry = new RssEntry();
 				entry.setTitle(syndEntry.getTitle());
-				entry.setUrl(syndEntry.getUri());
+				entry.setUrl(syndEntry.getLink());
 				entry.setUpdatedDate(syndEntry.getUpdatedDate() == null ? syndEntry.getPublishedDate() : syndEntry.getUpdatedDate());
 				entries.add(entry);
 				if (++index >= 10) {

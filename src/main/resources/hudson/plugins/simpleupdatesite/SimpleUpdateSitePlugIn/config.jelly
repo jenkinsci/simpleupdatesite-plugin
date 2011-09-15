@@ -1,12 +1,12 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
 	<f:section title="Configure SimpleUpdater">
-		<f:entry title="Announcement RSS URL" field="newsRssUrl">
+		<f:entry title="Announcement RSS URL" description="Announcement RSS URL." field="newsRssUrl">
 			<f:textbox name="simpleupdatesite.newsRssUrl" value="${it.newsRssUrl}"/>
 		</f:entry>
-		<f:entry title="Simple UpdateSite URL" description="simple update site url." field="updateSiteUrl">
+		<f:entry title="Simple UpdateSite URL" description="Update site URL." field="updateSiteUrl">
 			<f:textbox name="simpleupdatesite.updateSiteUrl" value="${it.updateSiteUrl}"/>
 		</f:entry>
-		<f:entry title="Ask a support URL" description="Ask a support url." field="supportUrl">
+		<f:entry title="Ask a support URL" description="Ask a support link URL." field="supportUrl">
 			<f:textbox name="simpleupdatesite.supportUrl" value="${it.supportUrl}"/>
 		</f:entry>
 	</f:section>
